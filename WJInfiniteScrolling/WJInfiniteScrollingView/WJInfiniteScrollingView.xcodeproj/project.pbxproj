@@ -34,7 +34,7 @@
 		DA2B4B7A1C99314F001DE451 /* WJOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B4A5C1C99314F001DE451 /* WJOneViewController.m */; };
 		DA2B4B7B1C99314F001DE451 /* WJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B4A5E1C99314F001DE451 /* WJTableViewController.m */; };
 		DA2B4B7C1C99314F001DE451 /* WJTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B4A601C99314F001DE451 /* WJTwoViewController.m */; };
-		DA2B4B7F1C99321C001DE451 /* WJLocalInfiniteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B4B7E1C99321C001DE451 /* WJLocalInfiniteView.m */; };
+		DA2B4B821C9935F2001DE451 /* WJLocalInfiniteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B4B811C9935F2001DE451 /* WJLocalInfiniteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,8 +114,8 @@
 		DA2B4A5E1C99314F001DE451 /* WJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewController.m; sourceTree = "<group>"; };
 		DA2B4A5F1C99314F001DE451 /* WJTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTwoViewController.h; sourceTree = "<group>"; };
 		DA2B4A601C99314F001DE451 /* WJTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTwoViewController.m; sourceTree = "<group>"; };
-		DA2B4B7D1C99321C001DE451 /* WJLocalInfiniteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLocalInfiniteView.h; sourceTree = "<group>"; };
-		DA2B4B7E1C99321C001DE451 /* WJLocalInfiniteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLocalInfiniteView.m; sourceTree = "<group>"; };
+		DA2B4B801C9935F2001DE451 /* WJLocalInfiniteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLocalInfiniteView.h; sourceTree = "<group>"; };
+		DA2B4B811C9935F2001DE451 /* WJLocalInfiniteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLocalInfiniteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,10 +225,10 @@
 				DA2B47F71C99314E001DE451 /* singleton.h */,
 				DA2B47F81C99314E001DE451 /* WJDownloadOperation.h */,
 				DA2B47F91C99314E001DE451 /* WJDownloadOperation.m */,
+				DA2B4B801C9935F2001DE451 /* WJLocalInfiniteView.h */,
+				DA2B4B811C9935F2001DE451 /* WJLocalInfiniteView.m */,
 				DA2B47FA1C99314E001DE451 /* WJInfiniteCache.h */,
 				DA2B47FB1C99314E001DE451 /* WJInfiniteCache.m */,
-				DA2B4B7D1C99321C001DE451 /* WJLocalInfiniteView.h */,
-				DA2B4B7E1C99321C001DE451 /* WJLocalInfiniteView.m */,
 				DA2B47FC1C99314E001DE451 /* WJInfiniteScrolling.h */,
 				DA2B47FD1C99314E001DE451 /* WJInfiniteScrolling.m */,
 			);
@@ -403,7 +403,7 @@
 				DA2B4A661C99314F001DE451 /* MASViewConstraint.m in Sources */,
 				DA2B4B7B1C99314F001DE451 /* WJTableViewController.m in Sources */,
 				DA2B4A611C99314F001DE451 /* MASCompositeConstraint.m in Sources */,
-				DA2B4B7F1C99321C001DE451 /* WJLocalInfiniteView.m in Sources */,
+				DA2B4B821C9935F2001DE451 /* WJLocalInfiniteView.m in Sources */,
 				DA2B4A671C99314F001DE451 /* NSArray+MASAdditions.m in Sources */,
 				DA2B47AB1C993103001DE451 /* ViewController.m in Sources */,
 				DA2B47A81C993103001DE451 /* AppDelegate.m in Sources */,
@@ -645,6 +645,7 @@
 				DA2B47CF1C993103001DE451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2B47D01C993103001DE451 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +654,7 @@
 				DA2B47D21C993103001DE451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2B47D31C993103001DE451 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollingViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -661,6 +663,7 @@
 				DA2B47D51C993103001DE451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
